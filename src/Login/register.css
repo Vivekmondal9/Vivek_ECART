@@ -1,0 +1,75 @@
+.register-div-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Seymour One', sans-serif;
+
+    text-shadow: 2px 2px 5px gray;
+
+
+}
+
+.errors {
+    color: red;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+input {
+    border: none;
+    box-shadow: 5px 5px 8px gray;
+    border-radius: 15px;
+    text-align: center;
+    width: 40vw;
+}
+
+.reg-sub-btn {
+    height: 4vh;
+    width: 20vw;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 5px 5px 8px gray;
+    border-radius: 5px;
+    font-family: cursive;
+    background-color:#338507;
+    color: aliceblue;
+}
+.register-div {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(39, 167, 200, 0.6898109585631127) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 8px 8px 10px gray;
+    border-radius: 10px;
+
+}
